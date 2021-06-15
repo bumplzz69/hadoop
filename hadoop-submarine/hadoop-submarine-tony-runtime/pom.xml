@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-submarine-core</artifactId>
-            <version>0.2.0-SNAPSHOT</version>
+            <version>0.2.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -59,7 +59,7 @@
             <artifactId>hadoop-submarine-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
-            <version>0.2.0-SNAPSHOT</version>
+            <version>0.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
