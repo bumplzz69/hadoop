@@ -289,12 +289,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-app</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-app</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
@@ -317,13 +317,13 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-core</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-jobclient</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
@@ -348,7 +348,7 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-server-web-proxy</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
@@ -367,7 +367,7 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
          <artifactId>hadoop-yarn-server-tests</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
@@ -490,14 +490,14 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
          <artifactId>hadoop-mapreduce-client-jobclient</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-hs</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
@@ -1946,7 +1946,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
