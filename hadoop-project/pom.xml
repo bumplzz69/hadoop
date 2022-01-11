@@ -93,7 +93,7 @@
     <dnsjava.version>2.1.7</dnsjava.version>
 
     <guava.version>27.0-jre</guava.version>
-    <guice.version>4.0</guice.version>
+    <guice.version>5.0.0</guice.version>
     <joda-time.version>2.9.9</joda-time.version>
 
     <bouncycastle.version>1.60</bouncycastle.version>
@@ -241,12 +241,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
@@ -354,13 +354,13 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-server-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-server-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
@@ -374,12 +374,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
@@ -396,12 +396,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-server-resourcemanager</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-server-resourcemanager</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
@@ -1946,7 +1946,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
